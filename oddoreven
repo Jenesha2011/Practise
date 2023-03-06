@@ -1,0 +1,8 @@
+read n
+sum=$((n%2))
+if [ $sum == 0 ]
+then
+echo "It is even"
+else
+echo "It is odd"
+fi
